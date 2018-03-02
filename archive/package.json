@@ -1,0 +1,23 @@
+{
+  "name": "stitch",
+  "version": "1.0.0",
+  "description": "Nexmo Stitch demo application",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "nexmo": "^2.2.0",
+    "nexmo-conversation": "^0.1.14"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "mocha": "^5.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "http-server -a localhost -p 8000"
+  },
+  "author": "",
+  "license": "ISC"
+}
